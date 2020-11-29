@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
     console.log(`the bot is ready as ${bot.user.tag}`);
-    bot.user.setStatus('');
+    bot.user.setStatus('/*puedes poner el estado que este el bot*/');
 
 })
 
